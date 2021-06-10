@@ -1,0 +1,123 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #161515;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav {
+    margin: 0px;
+    padding: 20px 0px;
+}
+nav li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: azure;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+main h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #161515;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    padding-top: 80px;
+}
+
+footer {
+    background-color: #161515;
+    padding: 20px;
+}
+footer p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: azure;
+}
+
+.bigpic {
+    background-image: url("https://content.codecademy.com/projects/broadway/bg.jpg");
+    height: 800px;
+    background-size: cover;
+}
+.bttn-main {
+    background-color: #161515;
+    color: azure;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+}
+.support {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.support .col {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+.support img {
+    height: 32px;
+}
+.support h2 {
+    font-weight: 600;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.support p {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.support a {
+    background-color: white;
+    color: #161515;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #161515;
+}
+
+@media (max-width: 500px) {
+    main h1 {
+        font-size: 50px;
+        padding: 0 40px;
+    }
+    .support .col {
+        width: 100%;
+    }
+}
